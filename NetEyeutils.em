@@ -710,10 +710,6 @@ macro Add_IncFile_GPL_Header()
 	line_no = line_no + 1
 	InsBufLine(hbuf, line_no, " *   @currFileName@" )
 	line_no = line_no + 1
-	InsBufLine(hbuf, line_no, " * NODULE NAME:" )
-	line_no = line_no + 1
-	InsBufLine(hbuf, line_no, " *   N/A" )
-	line_no = line_no + 1
 	InsBufLine(hbuf, line_no, " * DESCRIPTION:" )
 	line_no = line_no + 1
 	InsBufLine(hbuf, line_no, " *   N/A" )
@@ -848,10 +844,6 @@ macro Add_srcFile_GPL_Header()
 	InsBufLine(hbuf, line_no, " * FILE NAME:" )
 	line_no = line_no + 1
 	InsBufLine(hbuf, line_no, " *   @currFileName@" )
-	line_no = line_no + 1
-	InsBufLine(hbuf, line_no, " * NODULE NAME:" )
-	line_no = line_no + 1
-	InsBufLine(hbuf, line_no, " *   N/A" )
 	line_no = line_no + 1
 	InsBufLine(hbuf, line_no, " * DESCRIPTION:" )
 	line_no = line_no + 1
